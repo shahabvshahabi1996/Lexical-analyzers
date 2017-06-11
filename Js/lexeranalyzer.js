@@ -6,8 +6,11 @@ $( document ).ready(function(){
     var Delimiter=["{","}",";",",","[","]","(",")","*/",":","'"];
     var Num = ["1","2","3","4","5","6","7","8","9","0"];
     var token = [];
-    var j = 0;
-    $('#Run_Compile').click(function(){
+     $('.code-editor').on("click",function(){
+            $('.console').val(" ");
+        });
+    $('#Run_Compile').on("click",function(){
+        token = [];
         var inputcode = $('.code-editor').val();
         var Bigcode = inputcode.replace(/\n/g, '');
         var Smallcode = Bigcode.split(" ");
@@ -52,6 +55,6 @@ $( document ).ready(function(){
         } 
         token = token.join("");
         console.log(token);
-    $('.console').val(token);
+        $('.console').val(token);
     });
 });

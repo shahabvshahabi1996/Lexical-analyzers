@@ -1,6 +1,6 @@
 @font-face {
     font-family: Monaco;
-    src: url(./font/Monaco.ttf);
+    src: url(../font/Monaco.ttf);
 }
 .Content{
     padding:15px;
