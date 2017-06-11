@@ -1,6 +1,6 @@
 $( document ).ready(function(){
 
-    var keyword = ["int","void","main()","float","if","while","for","else","void","switch","case","char","do","if","return","cin>>","cout<<"];
+    var keyword = ["int","void","main()","float","if","while","for","else","void","switch","case","char","do","if","return","cin>>","cout<<","endl"];
     var Rel_Operators = ["=","==",">","<",">=","<=","&&","||","!=","<<",">>"];
     var Math_Operators = ["+","*","/","-","%"];
     var Delimiter=["{","}",";",",","[","]","(",")","*/",":","'"];
